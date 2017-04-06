@@ -1,7 +1,7 @@
 [include]
 	path = ~/.gitconfig.local
 [core]
-	excludesfile = /Users/u0157312/.gitignore
+	excludesfile = /Users/u0078530/.gitignore_global
 [color]
 	ui = true
 	branch = auto
@@ -31,13 +31,11 @@
 	smudge = git-lfs smudge %f
 	required = true
 [user]
-	name = Jakob Kofoed Janot
-	email = jakob.janot@karnovgroup.com
+	name = Niels Høj Kristoffersen
+	email = niels.hoej.kristoffersen@karnovgroup.com
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
-[commit]
-	template = /Users/u0157312/.stCommitMsg
